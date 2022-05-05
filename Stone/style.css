@@ -1,0 +1,492 @@
+/* Базовые обнуления */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+/* Общие Стили */
+
+.container{
+    width: 1175px;
+    margin: 0 auto;
+}
+
+a {
+    display: inline-block;
+}
+
+body {
+    background: url("images/body-bg_01.jpg") no-repeat center / cover;
+    font-family: 'Ubuntu';
+    font-weight: 400;
+}
+
+.gen-title {
+    text-align: center;
+    font-size: 50px;
+    color: #302e33;
+    font-family: 'Righteous';
+    border-bottom: 1px solid #e3e3e4;
+    padding-bottom: 30px;
+}
+
+section, footer {
+    width: 1310px;
+    margin: 0 auto;
+}
+
+header {
+    width: 100%;
+    padding: 17px 0;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav .logo a {
+    display: flex;
+    align-items: center;
+}
+
+header nav .logo span {
+    font-size: 42px;
+    color: #fff;
+    font-family: 'Righteous';
+    margin-left: 20px;
+}
+
+header nav .menu {
+    display: flex;
+}
+
+header nav .menu li a {
+    font-size: 19px;
+    font-weight: 500;
+    color: #fff;
+    padding: 13px 29px;
+    border-right: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+header nav .menu li:last-child a{
+    border: none;
+}
+
+header nav .menu li a:hover,
+header nav .menu li a.active {
+    color: #fedc3d;
+}
+
+.main {
+    background: url("images/header-bg_02.jpg") no-repeat center / cover;
+}
+
+.main .main-text {
+    padding: 400px 0 130px;
+    text-align: center;
+}
+
+.main .title {
+    font-size: 110px;
+    color: #fff;
+    font-family: 'Righteous';
+}
+
+.main p {
+    font-family: 'Ubuntu';
+    font-size: 20px;
+    color: #fff;
+    padding: 19px 0 42px;
+}
+
+.main .social img {
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.main .arrows {
+    width: 135px;
+    display: flex;
+    justify-content: space-between;
+    margin: 210px auto 0;
+}
+
+.main .arrows img:last-child {
+    transform: rotate(180deg);
+}
+
+.main .arrows img {
+    cursor: pointer;
+}
+
+.note {
+    background: #ffffff;
+    padding: 100px 0;
+}
+
+.Welcome {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0 100px;
+}
+
+.welcome .title {
+    font-size: 17px;
+    font-weight: 500;
+    font-family: 'Ubuntu', serif;
+    padding: 50px 0 20px;
+    color: #302e33;
+}
+
+.welcome .text {
+    width: 485px;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Ubuntu', serif;
+    line-height: 25px;
+    padding-bottom: 50px;
+    color: #838285;
+}
+
+.gen-btn {
+    display: flex;
+    align-items: center;
+}
+
+.gen-btn a {
+    color: #302e33;
+    margin-right: 9px;
+}
+
+.style {
+    background: url("images/bg-section_03.jpg") no-repeat center / cover;
+    padding: 307px 0 282px;
+    text-align: center;
+}
+
+.style .title {
+    font-size: 110px;
+    font-weight: 400;
+    font-family: 'Righteous';
+    color: #fff;
+}
+
+.style .subtitle {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Ubuntu';
+    color: #fff;
+    padding: 26px 0 74px;
+}
+
+.style .text {
+    line-height: 28px;
+    font-size: 18px;
+    font-weight: 300;
+    font-family: 'Ubuntu';
+    color: #fff;
+    width: 966px;
+    margin: 0 auto;
+    padding-bottom: 58px;
+}
+
+.style .gen-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.style .gen-btn a {
+    color: #fff;
+    text-align: center;
+}
+
+/*Features*/
+.features {
+    padding: 141px 0;
+    background-color: #fff;
+    text-align: center;
+}
+
+.features .Num {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 91px;
+}
+
+.features .num:nth-child(1) {
+    width: 305px;
+}
+
+.features .num:nth-child(2) {
+    width: 345px;
+}
+
+.features .num:last-child {
+    width: 305px;
+}
+
+.features .num .title {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Ubuntu';
+    line-height: 25px;
+    color: #302e33;
+}
+
+.features .num .subtitle {
+    font-size: 147px;
+    font-weight: 300;
+    line-height: 25px;
+    font-family: 'Ubuntu';
+    color: #ed577b;
+    padding: 69px 0 77px;
+}
+
+.features .num .text {
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 25px;
+    color: #302e33;
+    padding-bottom: 62px;
+}
+
+.features .num .gen-btn {
+    display: flex;
+    justify-content: center;
+}
+
+.nature {
+    background: url("images/bg-section_2_03.jpg") no-repeat center / cover;
+    padding: 420px 0 444px;
+}
+
+.inspired {
+    text-align: center;
+}
+
+.inspired .title {
+    font-size: 110px;
+    font-weight: 400;
+    line-height: 60px;
+    font-family: 'Righteous';
+    padding-bottom: 12px;
+    color: #fff;
+}
+
+.inspired .text {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 60px;
+    font-family: 'Myrriad Pro';
+    color: #fff;
+}
+
+/*Solutions*/
+.solutions {
+    background-color: #fff;
+    padding: 90px 0 110px;
+}
+
+.solutions .wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.solutions .wrapper::after {
+    content: '';
+    position: absolute;
+    width: 855px;
+    height: 1px;
+    background: #e3e3e4;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.solutions .wrapper::before {
+    content: '';
+    position: absolute;
+    height: 545px;
+    width: 1px;
+    background: #e3e3e4;
+    bottom:  50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+}
+
+.solutions .wrapper .item {
+    width: 50%;
+    text-align: center;
+    padding: 55px 0 70px;
+    position: relative;
+}
+
+.solutions .wrapper .item .title {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    font-family: 'Ubuntu';
+    color: #302e33;
+    margin-top: 23px;
+}
+
+.solutions .wrapper .item .text {
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 25px;
+    font-family: 'Ubuntu';
+    color: #302e33;
+    margin: 25px 0 42px;
+}
+
+.solutions .wrapper .item .gen-btn {
+    display: flex;
+    justify-content: center;
+}
+
+.solutions .wrapper .item .gen-btn a:hover {
+    color: #ed577b;
+}
+
+.solutions .wrapper .item:nth-child(1) .elem {
+    width: 0;
+    height: 0;
+    border-bottom: 70px solid #f3f3f3;
+    border-left: 70px solid transparent;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.solutions .wrapper .item:nth-child(2) .elem {
+    width: 0;
+    height: 0;
+    border-bottom: 70px solid #f3f3f3;
+    border-right: 70px solid transparent;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.solutions .wrapper .item:nth-child(3) .elem {
+    width: 0;
+    height: 0;
+    border-top: 70px solid #f3f3f3;
+    border-left: 70px solid transparent;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.solutions .wrapper .item:nth-child(4) .elem {
+    width: 0;
+    height: 0;
+    border-top: 70px solid #f3f3f3;
+    border-right: 70px solid transparent;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.solutions .wrapper .item .elem {
+    margin: 2px;
+}
+
+.solutions .wrapper .item:hover .elem{
+    border-top-color: #ed577b;
+    border-bottom-color: #ed577b;
+}
+
+/*Contact*/
+.contact {
+    padding: 108px 0 207px;
+    background: #fff;
+}
+
+.contact .form {
+    padding-top: 40px;
+    display: flex;
+}
+
+.contact .form .left {
+    width: 50%;
+    display: grid;
+}
+
+.contact .form .left input {
+    border: none;
+    border-bottom: 1px solid #e3e3e4;
+    padding-top: 42px;
+    margin-right: 30px;
+}
+
+.contact .form .right {
+    position: relative;
+}
+
+.contact .form .right input {
+    width: 568px;
+    height: 224px;
+    border: 1px solid #e3e3e4;
+}
+
+.message::placeholder {
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding-top: 26px;
+    padding-left: 20px;
+}
+
+.contact .btns {
+    display: flex;
+    justify-content: center;
+    padding: 64px;
+}
+
+.btn-1 {
+    display: flex;
+    align-items: center;
+    margin-right: 29px;
+}
+
+.btn-1 .send {
+    margin-right: 9px;
+}
+
+.btn-2 {
+    display: flex;
+    align-items: center;
+}
+
+.btn-2 .clear {
+    margin-left: 9px;
+}
+
+.c-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.c-logo img {
+    margin-right: 18px;
+}
+
+.c-logo p {
+    font-size: 42px;
+    font-weight: 400;
+    line-height: 40px;
+    font-family: 'Righteous';
+    color: #302e33;
+}
